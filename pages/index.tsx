@@ -20,7 +20,7 @@ export default function Index() {
                         VARIANT RESEARCH
                     </Typography>
                     <Typography variant="h5" component="h2" align='center' gutterBottom>
-                        Option + On-chain Solana Data
+                        Options + On-chain Solana Data
                     </Typography>
                 </Grid>
                 <Grid item xs={4} />
