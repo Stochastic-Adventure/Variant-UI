@@ -20,6 +20,7 @@ export default function MyApp(props: AppProps) {
         <React.Fragment>
             <Head>
                 <title>Variant Research</title>
+                <link rel="icon" href="/favicon/favicon.svg" />
                 <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
             </Head>
             <ThemeProvider theme={theme}>

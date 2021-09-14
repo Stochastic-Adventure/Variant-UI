@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="624.67999"
+   height="624.67999"
+   viewBox="0 0 165.27991 165.27992"
+   version="1.1"
+   id="svg83182"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs83179">
+    <style
+       id="style96634">
+      .cls-1 {
+        stroke: #000;
+        stroke-width: 4.68px;
+      }
+
+      .cls-2 {
+        font-size: 33.333px;
+        fill: #fff;
+        font-family: Montserrat;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-23.634114,-57.601035)">
+    <rect
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="rect83208"
+       width="105.69924"
+       height="65.325722"
+       x="-119.94231"
+       y="46.763214" />
+    <g
+       id="g96648"
+       transform="matrix(0.26458333,0,0,0.26458333,24.253239,58.22016)">
+      <path
+         id="rect96638"
+         class="cls-1"
+         style="stroke:#000000;stroke-width:4.68px"
+         d="M 0,0 H 620 V 620 H 0 Z" />
+      <g
+         aria-label="V"
+         transform="matrix(3.162,0,0,3.162,270.727,349.318)"
+         id="V"
+         class="cls-2"
+         style="font-weight:600;font-size:33.333px;font-family:Montserrat;fill:#ffffff">
+        <path
+           d="M 24.466422,-23.3331 14.299857,0 H 10.033233 L -0.166665,-23.3331 h 4.699953 l 7.766589,17.99982 7.833255,-17.99982 z"
+           style="font-weight:600;font-size:33.333px;font-family:Montserrat;fill:#ffffff"
+           id="path96651" />
+      </g>
+    </g>
+  </g>
+</svg>
