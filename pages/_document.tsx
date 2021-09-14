@@ -14,6 +14,8 @@ export default class MyDocument extends Document {
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css?family=Roboto|IBM+Plex:300,400,500,700&display=swap"
                     />
+                    {/* FontAwesome fix */}
+                    <link href="https://use.fontawesome.com/releases/v5.15.4/css/svg-with-js.css" rel="stylesheet"></link>
                 </Head>
                 <body>
                     <Main />

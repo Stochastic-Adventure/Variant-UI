@@ -15,7 +15,7 @@ export default function SocialFooter() {
                 <Grid item xs={2}>
                     <Box display='flex' justifyContent='center'>
                         <a href="https://twitter.com/ResearchVariant" target="_blank" rel="noreferrer">
-                            <Button >
+                            <Button>
                                 <FontAwesomeIcon icon={faTwitter} size="2x" color="#000" />
                             </Button>
                         </a>
