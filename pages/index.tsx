@@ -12,30 +12,31 @@ export default function Index() {
         <div>
             <NavBar />
             <Box pt={35} />
-            <Grid container direction="row" justifyContent="space-evenly">
-                <Grid item xs={4} />
-                <Grid item xs={4}>
-                    <Typography variant="h4" component="h1" align='center' gutterBottom>
-                        VARIANT RESEARCH
-                    </Typography>
-                    <Typography variant="h5" component="h2" align='center' gutterBottom>
-                        Options + On-chain Solana Data
-                    </Typography>
+            <Grid container direction="column" justifyContent="space-evenly" spacing={10}>
+                <Grid container item justifyContent="space-evenly">
+                    <Grid item xs={4} />
+                    <Grid item xs={4}>
+                        <Typography variant="h4" component="h1" align='center' gutterBottom>
+                            VARIANT RESEARCH
+                        </Typography>
+                        <Typography variant="h5" component="h2" align='center' gutterBottom>
+                            Options + On-chain Solana Data
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={4} />
                 </Grid>
-                <Grid item xs={4} />
-            </Grid>
-            <Box pt={5}></Box>
-            <Grid container direction="row" justifyContent="space-between">
-                <Grid item xs={4} />
-                <Grid item xs={4}>
-                    <Typography variant='h5' component='h3' align='center' gutterBottom>
-                        COMING SOON
-                    </Typography>
+                <Grid container item justifyContent="space-between">
+                    <Grid item xs={4} />
+                    <Grid item xs={4}>
+                        <Typography variant='h5' component='h3' align='center' gutterBottom>
+                            COMING SOON
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={4} />
                 </Grid>
-                <Grid item xs={4} />
+                {/* <Box pt={30}></Box> */}
+                <SocialFooter />
             </Grid>
-            <Box pt={30}></Box>
-            <SocialFooter />
         </div >
 
     )
