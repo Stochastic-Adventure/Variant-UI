@@ -5,7 +5,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
 import Box from '@material-ui/core/Box'
-import IconButton from '@material-ui/core/IconButton'
 import VariantLogo from '../components/VRLogo'
 
 
