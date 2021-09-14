@@ -11,8 +11,8 @@ export default function Index() {
         <div>
             <NavBar />
             <Box pt={35} />
-            <Grid container direction="column" justifyContent="space-evenly" spacing={10}>
-                <Grid container item justifyContent="space-evenly">
+            <Grid container direction="column" justifyContent="space-between" spacing={2} xs={12}>
+                <Grid container item justifyContent="space-between">
                     <Grid item xs={4} />
                     <Grid item xs={4}>
                         <Typography variant="h4" component="h1" align='center' gutterBottom>
@@ -24,7 +24,7 @@ export default function Index() {
                     </Grid>
                     <Grid item xs={4} />
                 </Grid>
-                <Grid container item justifyContent="space-between">
+                <Grid container item justifyContent="space-evenly">
                     <Grid item xs={4} />
                     <Grid item xs={4}>
                         <Typography variant='h5' component='h3' align='center' gutterBottom>

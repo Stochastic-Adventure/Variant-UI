@@ -1,6 +1,5 @@
 import React from 'react';
-import { makeStyles, createStyles, withStyles, Theme } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container'
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar'
 import Button from '@material-ui/core/Button'
@@ -31,20 +30,28 @@ const useStyles = makeStyles((theme: Theme) =>
                 backgroundColor: '#fff',
                 color: '#48bfe3'
             },
+        },
+        logo: {
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'flex-end',
+            padding: '0 8px',
+            width: theme.mixins.toolbar.minHeight,
         }
     }),
 );
 
 
+
+
 export default function NavBar() {
     const classes = useStyles();
-
     return (
         <div className={classes.root}>
             <AppBar position='fixed' color='transparent' elevation={0}>
                 <Toolbar>
                     <Box className={classes.title}>
-                        <VariantLogo width='10%' height='inherit' />
+                        <VariantLogo className={classes.logo} />
                     </Box>
                     <Button className={classes.menuButton}>Charts</Button>
                     <Button className={classes.menuButton}>Trade Watcher</Button>
